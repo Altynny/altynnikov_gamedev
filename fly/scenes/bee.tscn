@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dphorl3ohx0fd"]
+
+[ext_resource type="Texture2D" uid="uid://dkhq1bruanq8f" path="res://assets/bee.png" id="1_1q2x0"]
+[ext_resource type="Script" uid="uid://c2212vxrhsty1" path="res://scripts/noised.gd" id="1_vie5o"]
+
+[node name="bee" type="Node2D" unique_id=1155799675]
+scale = Vector2(0.35, 0.35)
+script = ExtResource("1_vie5o")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=660269085]
+texture = ExtResource("1_1q2x0")

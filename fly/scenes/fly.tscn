@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dwv7o7u6cvjee"]
 
 [ext_resource type="Texture2D" uid="uid://dmqv0pyu8jqu5" path="res://assets/fly.png" id="1_djddo"]
-[ext_resource type="Script" uid="uid://ngy2o7hqnltu" path="res://scripts/simple_motion.gd" id="1_xr3pu"]
+[ext_resource type="Script" uid="uid://c2212vxrhsty1" path="res://scripts/noised.gd" id="1_xr3pu"]
 
 [node name="Fly" type="Node2D" unique_id=1178072489]
 script = ExtResource("1_xr3pu")
