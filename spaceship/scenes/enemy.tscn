@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://buv4csv1rc1ni"]
+
+[ext_resource type="Texture2D" uid="uid://d0hc6ogjacach" path="res://assets/enemy_boid.png" id="1_7p1mj"]
+[ext_resource type="Script" uid="uid://jk84n2jblpk0" path="res://scripts/enemy.gd" id="1_md0e3"]
+
+[node name="Enemy" type="Node2D" unique_id=2057445936]
+script = ExtResource("1_md0e3")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=901006266]
+rotation = -1.5707964
+texture = ExtResource("1_7p1mj")
